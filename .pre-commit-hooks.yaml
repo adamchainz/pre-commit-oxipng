@@ -1,0 +1,9 @@
+-   id: oxipng
+    name: oxipng
+    entry: oxipng
+    language: rust
+    'types': [png]
+    args: []
+    require_serial: true
+    additional_dependencies: ["cli:oxipng:0.1.0"]
+    minimum_pre_commit_version: '0'
