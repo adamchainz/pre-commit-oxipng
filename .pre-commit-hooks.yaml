@@ -5,5 +5,5 @@
     'types': [png]
     args: []
     require_serial: true
-    additional_dependencies: ["cli:oxipng:0.18.0"]
+    additional_dependencies: ["cli:oxipng:0.18.1"]
     minimum_pre_commit_version: '0'
