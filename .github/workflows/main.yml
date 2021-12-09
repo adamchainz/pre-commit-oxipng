@@ -23,6 +23,6 @@ jobs:
         git config --global user.name "Adam's Bot"
         git config --global user.email 'bot@adamj.eu'
 
-    - run: pre-commit-mirror . --language rust --package-name oxipng --types png --entry oxipng --id oxipng
+    - run: pre-commit-mirror . --language rust --package-name oxipng --types png --entry oxipng --id oxipng --require-serial
 
     - run: git push origin HEAD:refs/heads/main --tags
